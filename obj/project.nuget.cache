@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "4McXYTHkllXNvxWW4q4y8O3EVT4Pj+jQkrIhNM3ja41kY9iYiTFj8wiwqYa4uwKQzFKS2m0Z16QYPYXVpb1hmQ==",
+  "success": true,
+  "projectFilePath": "/home/uint/Documents/aoai_test/RazorTest/RazorTest.csproj",
+  "expectedPackageFiles": [
+    "/home/uint/.nuget/packages/azure.ai.openai/1.0.0-beta.15/azure.ai.openai.1.0.0-beta.15.nupkg.sha512",
+    "/home/uint/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
+    "/home/uint/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "/home/uint/.nuget/packages/system.clientmodel/1.0.0/system.clientmodel.1.0.0.nupkg.sha512",
+    "/home/uint/.nuget/packages/system.diagnostics.diagnosticsource/6.0.1/system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "/home/uint/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
+    "/home/uint/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/home/uint/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/home/uint/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
+    "/home/uint/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
+    "/home/uint/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}

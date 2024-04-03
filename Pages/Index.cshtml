@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "PR Census GPT";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label for="inputText">Enter Text</label>
+        <textarea id="inputText" name="inputText" class="form-control"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@if (Model.ResponseText != null)
+{
+    <div class="alert alert-success" role="alert">
+        @Model.ResponseText
+    </div>
+}

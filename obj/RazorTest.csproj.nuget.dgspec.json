@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/uint/Documents/aoai_test/RazorTest/RazorTest.csproj": {}
+  },
+  "projects": {
+    "/home/uint/Documents/aoai_test/RazorTest/RazorTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/uint/Documents/aoai_test/RazorTest/RazorTest.csproj",
+        "projectName": "RazorTest",
+        "projectPath": "/home/uint/Documents/aoai_test/RazorTest/RazorTest.csproj",
+        "packagesPath": "/home/uint/.nuget/packages/",
+        "outputPath": "/home/uint/Documents/aoai_test/RazorTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/uint/Documents/aoai_test/RazorTest/NuGet.config",
+          "/home/uint/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.AI.OpenAI": {
+              "target": "Package",
+              "version": "[1.0.0-beta.15, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.103/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
