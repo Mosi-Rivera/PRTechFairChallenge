@@ -6,6 +6,15 @@
 
 <h2>@ViewData["Title"]</h2>
 
+<div class="chat-history">
+    @foreach (var message in Model.ConversationHistory)
+    {
+        <div class="chat-message @(message.Type)">
+            @message.Message
+        </div>
+    }
+</div>
+
 <form method="post">
     <div class="form-group">
         <label for="inputText">Enter Text</label>
@@ -13,10 +22,3 @@
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
-@if (Model.ResponseText != null)
-{
-    <div class="alert alert-success" role="alert">
-        @Model.ResponseText
-    </div>
-}

@@ -20,3 +20,30 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.chat-history {
+  height: 300px; /* Set a fixed height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.chat-message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  max-width: 70%;
+}
+
+.user {
+  background-color: #007bff;
+  color: #fff;
+  align-self: flex-end;
+}
+
+.bot {
+  background-color: #e5e5e5;
+  color: #000;
+}
+
+.input-container {
+  margin-top: 20px;
+}
